@@ -28,13 +28,17 @@
 - [Function?](Backend/Node_Js/Function.md)
 - [Parameter?](Backend/Node_Js/Parameter.md)
 - [Passport.js?](Backend/Node_Js/passport.md)
- 
+
+### [DevOps]
+- [DevOps](Backend/DevOps/DevOps.md)
+- [AWS?](Backend/DevOps/aws.md)
+- [AWSEC2?](Backend/DevOps/awsec2.md)
+
 ### [ Unclassfied ]
 - [FrameWork?](Backend/Unclassified/FrameWork.md)
 - [Postman?](Backend/Unclassified/Postman.md)
 - [REST?](Backend/Unclassified/REST.md)
-- [AWS?](Backend/Unclassified/aws.md)
-- [AWSsc2?](Backend/Unclassified/awsec2.md)
+    
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
 - [Cryptography overview](Cyber_Security/Part2_대칭키암호.md)
