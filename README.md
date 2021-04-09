@@ -31,6 +31,8 @@
 
 ### [Spring]
 - [Spring?](Backend/Spring/Spring.md)
+- [JSP](Backend/Spring/JSP.md)
+- [IoC](Backend/Spring/IOC.md)
 
 ### [DevOps]
 - [DevOps](Backend/DevOps/DevOps.md)
@@ -41,7 +43,9 @@
 - [FrameWork?](Backend/Unclassified/FrameWork.md)
 - [Postman?](Backend/Unclassified/Postman.md)
 - [REST?](Backend/Unclassified/REST.md)
-    
+- [OOP?](Backend/Unclassified/oop.md)
+- [Static_Dynamic_WP?](Backend/Unclassified/Static_Dynamic_WP.md)
+
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
 - [Cryptography overview](Cyber_Security/Part2_대칭키암호.md)
