@@ -24,7 +24,7 @@
 - [difference?](Backend/Certification/difference.md)
 
 ### [Java]
-- [Java?](Backend/Java/Class.md)
+- [Class?](Backend/Java/Class.md)
 - [oop?](/Backend/Java/oop.md)
 
 ### [ Node.js ]
