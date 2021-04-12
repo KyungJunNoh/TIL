@@ -82,6 +82,6 @@ protected 멤버는 부모 클래스에 대해서는 public 멤버처럼 취급�
 
 3. 이 멤버를 선언한 클래스를 상속받은 자식 클래스(child class)의 멤버
 
-다음 그림은 클래스의 protected 멤버에 접근할 수 있는 영역을 보여줍니다.
+다음 그림은 클래스의 protected 멤버에 접근할 수 있는 영역을 보여준다.
 
 <img src = "img/protected.png">
