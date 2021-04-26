@@ -44,6 +44,7 @@
 - [Entity,DTO,VO?](Backend/Spring/Entity_DTO_VO.md)
 - [Maven?](Backend/Spring/maven.md)
 - [Servlet?](Backend/Spring/Servlet.md)
+- [ORM?](Backend/Spring/ORM.md)
 
 ### [ DevOps ]
 - [DevOps?](Backend/DevOps/DevOps.md)
@@ -55,6 +56,7 @@
 - [Postman?](Backend/Unclassified/Postman.md)
 - [REST?](Backend/Unclassified/REST.md)
 - [Static_Dynamic_WP?](Backend/Unclassified/Static_Dynamic_WP.md)
+- [Business_Logic?](Backend/Unclassified/Business_Logic.md)
 
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
