@@ -26,7 +26,7 @@
 ### 클래스의 예
 **클래스(class)**   
 - 차(Car) : 설계도   
-<img src= "img/car.png" width="250px">
+![car](img/car.png)
 
 **필드(field)**
 - car.modelName = "람보르기니"
