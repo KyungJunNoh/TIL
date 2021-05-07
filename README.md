@@ -57,6 +57,9 @@
 - [REST?](Backend/Unclassified/REST.md)
 - [Static_Dynamic_WP?](Backend/Unclassified/Static_Dynamic_WP.md)
 - [Business_Logic?](Backend/Unclassified/Business_Logic.md)
+- [DDL,DCL,DML?](Backend/Unclassified/SQL.md)
+- [MVC?](Backend/Unclassified/MVC.md)
+- [SOLID?](Backend/Unclassified/SOLID.md)
 
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
@@ -66,6 +69,7 @@
 - [Network](Cyber_Security/network.md)
 - [Communication model](Cyber_Security/통신모델.md)
 - [I.C.S](Cyber_Security/정보통신보안.md)
+
 
 ## [Wargame.kr](https://github.com/KyungJunNoh/TIL/tree/main/Wargame.kr)
 ### [ Wargame 맛보기 ]
