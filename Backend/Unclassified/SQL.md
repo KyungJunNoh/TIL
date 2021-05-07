@@ -5,7 +5,7 @@ SQL (Structured Query Langauge) - 구조적 질의 언어 이란? 해당 질의 
 ```
 
 ### DDL(Data Definition Language) - 데이터 정의어
-데이터베이스를 정의하는 언어이며, 데이터를 **생성, 수정, 삭제하는 등의 데이터의 전체의 골격을 결정하는 역할**을 하는 언어 이다.
+데이터베이스를 정의하는 언어이며, 데이터베이스 테이블을 **생성, 수정, 삭제하는 등의 데이터의 전체의 골격을 결정하는 역할**을 하는 언어 이다.
 ![DDL](https://images.velog.io/images/developerjun0615/post/074db189-31b7-43ca-a006-81621671707d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-05-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.13.51.png)
 
 ### DML(Data Manipulation Language ) - 데이터 조작어
