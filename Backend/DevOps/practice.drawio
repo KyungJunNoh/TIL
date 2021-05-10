@@ -1,0 +1,61 @@
+<mxfile>
+    <diagram id="B1QZIku5PuJIJDanYwqX" name="페이지-1">
+        <mxGraphModel dx="1233" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="arcSize=10;dashed=0;fillColor=none;strokeWidth=2;rounded=1;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="180" width="960" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="users" style="outlineConnect=0;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_users;pointerEvents=1;rounded=1;fontColor=#393C56;fillColor=#1000F2;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="470" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;rounded=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="160" width="45" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="arcSize=10;dashed=0;fillColor=none;strokeWidth=2;rounded=1;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="230" width="870" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.virtual_private_cloud;rounded=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="465" y="210" width="49.5" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="group;rounded=1;fontColor=#393C56;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="360" y="474" width="140" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;rounded=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="15">
+                    <mxGeometry x="50.5" width="39" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Internet&lt;br&gt;gate way&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#393C56;" vertex="1" parent="15">
+                    <mxGeometry y="46" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;rounded=1;fontColor=#393C56;strokeColor=#3AE040;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="280" width="775" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;rounded=1;fontColor=#393C56;strokeColor=#3AE040;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="520" width="775" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="ap-northeast-2a&lt;br&gt;가용영역 (a)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="443" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="ap-northeast-2a&lt;br&gt;가용영역 (b)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="525" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="300" width="170" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="public subnet1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="410" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="560" width="170" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="public subnet2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="670" width="100" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
