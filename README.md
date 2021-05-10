@@ -25,10 +25,11 @@
 
 ### [ Java ]
 - [Class?](Backend/Java/Class.md)
-- [oop?](/Backend/Java/oop.md)
+- [OOP?](Backend/Java/oop.md)
 - [modifier?](Backend/Java/modifier.md)
 - [package](Backend/Java/package.md)
 - [polymorphism](Backend/Java/polymorphism.md)
+- [generic?](Backend/Java/generic.md)
 
 ### [ Node.js ]
 - [Express-generator?](Backend/Node_Js/Express-generator.md)
