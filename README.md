@@ -52,7 +52,7 @@
 - [DevOps?](Backend/DevOps/DevOps.md)
 - [AWS?](Backend/DevOps/aws.md)
 - [AWSEC2?](Backend/DevOps/awsec2.md)
-
+- [CIDI](Backend/DevOps/CIDI.md)
 ### [ Unclassfied ]
 - [FrameWork?](Backend/Unclassified/FrameWork.md)
 - [Postman?](Backend/Unclassified/Postman.md)
