@@ -61,11 +61,11 @@ public Boolean isTokenExpired(String token) {
 ---
 
 ```java
-// accessToken 생성
+// accessToken 생성 (dogenerateToken메소드를 사용하는 메소드)
 public String generateToken(Member member) {
     return doGenerateToken(member.getMemberEmail(), member.getRoles(), member.getMemberClassNumber(), TOKEN_VALIDATION_SECOND);
 }
-// refreshToken 생성
+// refreshToken 생성 (dogenerateToken메소드를 사용하는 메소드)
 public String generateRefreshToken(Member member) {
     return doGenerateToken(member.getMemberEmail(), member.getRoles(), member.getMemberClassNumber(), REFRESH_TOKEN_VALIDATION_SECOND);
 }
@@ -101,3 +101,16 @@ public String doGenerateToken(String userEmail, List<String> roles, String class
     return jwt;
 }
 ```
+토큰에 Claims을 삽입하여 실질적인 토큰을 만드는 메소드
+
+---
+
+```java
+public Boolean validateToken(String token, UserDetails userDetails) {
+    final String username = getUserEmail(token);
+
+    return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
+}
+```
+토큰을 인증하는 메소드
+- 이 과정에서 토큰이 만료가 되었는지, 토큰안에있는 회원정보와 로그인되어있는 회원정보가 같은지 비교
