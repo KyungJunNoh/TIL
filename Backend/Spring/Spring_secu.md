@@ -10,7 +10,7 @@ private String SECRET_KEY;
 spring:
   # JWT key 설정
   jwt:
-    secret: KimdddsIdDidkSidjdpSJd937sdjdfjKJFudDjksdfdfi435k34tjHDKHd8iudsfFHkf8D8fKF9FDkl43ewlsdaf8dsafjk23KDF99dfF8fd6FDjDFasdfkkweqrk89DFuhsdfklsdaf98sdf98FDS89dfsjkHJK98DS98KFHD
+    secret: 
 ```
 ex) key.yml
 
