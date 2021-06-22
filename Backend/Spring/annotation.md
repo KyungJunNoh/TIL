@@ -93,3 +93,9 @@ public class GetController {
 ### @Table
 - 클래스가 테이블이 되기 때문에 클래스의 선언부에 작성하여 테이블명을 어떻게 할지 결정한다. 기본적으로 @Table이 지정되지 않으면, 클래스 명으로 테이블이 생성된다.
 
+### @Transactional
+- 객체 변경감지를 하고, 메서드가 실행되기전 transaction begin 코드를 삽입하여 메서드가 실행 한 후 객체 변경감지를 수행하게 유도한다.
+- transaction begin, commit을 자동 수행해준다.
+- 예외를 발생시키면, rollback 처리를 자동 수행해준다.   
+
+(Update를 하기 위해 사용했음)
