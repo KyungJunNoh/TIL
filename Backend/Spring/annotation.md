@@ -99,3 +99,19 @@ public class GetController {
 - 예외를 발생시키면, rollback 처리를 자동 수행해준다.   
 
 (Update를 하기 위해 사용했음)
+
+
+### @ApiParam("")
+- Swagger 의 어노테이션으로 swagger 페이지에서 해당 API의 설명을 표시해주는 어노테이션이다.
+
+```java
+@PostMapping("/join")
+public String signup(@ApiParam("Signup User")@RequestBody UserDto userDto){
+    System.out.println(userDto.getUserEmail());
+    userService.signup(userDto);
+    return "success";
+}
+```
+> 결과 
+<img src = "./img/ApiParamEx.png">
+
