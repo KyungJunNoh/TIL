@@ -115,3 +115,13 @@ public String signup(@ApiParam("Signup User")@RequestBody UserDto userDto){
 > 결과 
 <img src = "./img/ApiParamEx.png">
 
+### @ID
+- JPA에서 기본키를 지정할때 사용하는 어노테이션
+
+### @GenerateValue
+- JPA에서 기본키의 값을 자동으로 증가 시켜줄때 사용되는 어노테이션
+- 추가적인 옵션을 붙이고싶을때에는 ```ex) @GenerateValue(strategy = GenerationType.IDENTITY)```   
+
+> 옵션 예시
+> <img src = "./img/AutoIncre.png">
+
