@@ -90,3 +90,5 @@
 - [5_WTF_Code](Wargame.kr/5_WTF_Code/README.md)
 - [6_Fly_me_to_the_moon](Wargame.kr/6_Fly_me_to_the_moon/README.md)
 - [7_Strcmp](Wargame.kr/7_Strcmp/README.md)
+
+Slack Test
