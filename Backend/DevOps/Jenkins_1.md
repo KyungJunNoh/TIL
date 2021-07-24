@@ -14,7 +14,7 @@
 
 
 ### 1. CI/CD 란?
-- CI(Continuous Integration)   
+- CI(Continuous I ntegration)   
 여러 개발자들의 코드베이스(코드 스타일)를 계속해서 통합하는 것
 ```
 CI 왜 필요한가요?
@@ -160,8 +160,8 @@ service jenkins start
 Continuous : 지속적인, 끊김없는   
 쿠버네티스 :    
 QA :   
-프로덕션 :   
-베어메탈 :   
+프로덕션(production) : 제작, 생산  
+베어메탈 : 하드웨어 상에 어떤 소프트웨어도 설치되어 있지 않은 상태  
 Docket agent :  
 Pipeline syntax :    
 Declarative :    
