@@ -170,7 +170,7 @@ slave node :
 Production :   
 APP_ENV :   
 parameter store :   
-AWS S3 bucket :    
+AWS S3 bucket : 데이터 가용성 및 보안과 성능을 제공하는 객체 스토리지   
 ECR(Elastic Container Registry) 이미지 : 도커 이미지를 저장하는 프라이빗 레포지토리     
 ECS(Elastic Container Service) 서비스 : 도커 컨테이너 기반으로 서비스 운용을 가능하게 해주는 간단한 서비스   
 countinuouse deploy :   
