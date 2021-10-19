@@ -14,7 +14,7 @@
 
 
 ### 1. CI/CD 란?
-- CI(Continuous I ntegration)   
+- CI(Continuous Integration)   
 여러 개발자들의 코드베이스(코드 스타일)를 계속해서 통합하는 것
 ```
 CI 왜 필요한가요?
