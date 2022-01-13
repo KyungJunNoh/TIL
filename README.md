@@ -72,6 +72,7 @@
 - [SOLID?](Backend/Unclassified/SOLID.md)
 - [JWT?](Backend/Unclassified/JWT.md)
 - [Bath Variable 과 QueryParameter](Backend/Unclassified/PathAndQuery.md)
+- [소켓통신](Backend/Unclassified/img/socket.png)
 
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
