@@ -76,6 +76,9 @@
 - [Bath Variable 과 QueryParameter](Backend/Unclassified/PathAndQuery.md)
 - [소켓통신](Backend/Unclassified/img/socket.png)
 
+### [ 기술 면접 준비 ]
+- [백엔드 기술면접]()
+
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
 - [Cryptography overview](Cyber_Security/Part2_대칭키암호.md)
@@ -84,7 +87,6 @@
 - [Network](Cyber_Security/network.md)
 - [Communication model](Cyber_Security/통신모델.md)
 - [I.C.S](Cyber_Security/정보통신보안.md)
-
 
 ## [Wargame.kr](https://github.com/KyungJunNoh/TIL/tree/main/Wargame.kr)
 ### [ Wargame 맛보기 ]
