@@ -77,7 +77,7 @@
 - [소켓통신](Backend/Unclassified/img/socket.png)
 
 ### [ 기술 면접 준비 ]
-- [백엔드 기술면접]()
+- [백엔드 기술면접](Backend/TechInterView/TechInterView.md)
 
 ## [Cyber_Security](https://github.com/KyungJunNoh/TIL/tree/main/Cyber_Security)
 ### [ 정보보안 이론 맛보기 ]
