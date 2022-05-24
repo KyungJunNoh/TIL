@@ -76,6 +76,7 @@
 - [JWT?](Backend/Unclassified/JWT.md)
 - [Bath Variable 과 QueryParameter](Backend/Unclassified/PathAndQuery.md)
 - [소켓통신](Backend/Unclassified/img/socket.png)
+- [동기와 비동기](Backend/Unclassified/SyncAsync.md)
 
 ### [ 기술 면접 준비 ]
 - [백엔드 기술면접](Backend/TechInterView/TechInterView.md)
