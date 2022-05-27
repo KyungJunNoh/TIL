@@ -203,3 +203,11 @@
 
 **20. 제네릭은 무엇인가?**
 > 제네릭은 다양한 타입의 객체들을 다루는 메소드나 컬렉션 클래스에 컴파일시의 타입체크를 해주는 기능입니다. 즉 클래스 내부에서 사용할 데이터타입을 나중에 인스턴스를 생성 할 때 확정하는 것을 제네릭이라고 합니다.
+
+**21. Filter와 Spring Interceptor**
+> Filter는 Servlet Filter로써 javax.servlet 스펙에 포함되는 클래스입니다.   
+> Interceptor는 Spring MVC 스펙에 포함되어 있는 클래스입니다.   
+> Filter는 Servlet에서 전후처리를 담당하며, Interceptor는 Spring에서 Handler를 실행하기 전후나, ViewResolver를 통해 컨트롤러에서 리턴한 View Name으로부터 렌더링을 담당할 View 오브젝트를 준비해 돌려준 후 실제 View를 렌더링한 후에 어떠한 처리를 담당합니다.   
+> Filter는 Web Application(Tomcat을 사용할 경우 web.xml)에 등록하며, Interceptor는 Spring의 Application Context에 등록합니다.   
+> Filter는 Method Signature에 있는 Argument인 HttpServletRequest 혹은 HttpServeltResponse를 ServletRequest, ServletResponse 등으로 교체할 때 사용하거나, 데이터 변환(다운로드 파일의 압축 및 데이터 암호화 등), XSL/T를 이용한 XML 문서 변경, 사용자 인증, 자원 접근에 대한 로깅 등에 사용합니다.   
+> Interceptor의 경우 AOP를 흉내내거나, Spring 애플리케이션에서 전역적으로 전후처리 로직에서 예외를 사용하도록 하거나, Handler Method에서 사용자의 권한을 체크해서 다른 동작을 시켜준다거나 할 때 사용합니다.   
