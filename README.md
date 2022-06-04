@@ -57,6 +57,7 @@
 - [Security_files_tructure?](Backend/Spring/Spring_secu.md)
 - [annotation?](Backend/Spring/annotation.md)
 - [Why_Spring_boot?](Backend/Java/../Spring/Why_Spring_boot.md)
+- [@Controller 와 @RestController](Backend/Spring/Controller.md)
 
 ### [ DevOps ]
 - [DevOps?](Backend/DevOps/DevOps.md)
