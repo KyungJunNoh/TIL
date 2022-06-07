@@ -9,7 +9,7 @@
 `final` 키워드를 사용함으로써 **불변에 대한 안전함이 보장**되어있다.   
 lombok 라이브러리를 활용하면 `@RequireArgsConstructor` 로 간단하게 사용할 수 있다.
 
-1. 필드 주입(Field Injection) 
+2. 필드 주입(Field Injection) 
 - Spring 프레임워크의 `@Autowired` 어노테이션을 활용한 주입 방식으로,   
 방법이 매우 간단하지만 **프레임워크에 의존적**이고 객체지향적으로 좋지 않은 단점이 있습니다.   
 
