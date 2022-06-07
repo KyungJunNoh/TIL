@@ -1,7 +1,7 @@
 # ORM(Object Relational Mapping)
 
 ### 영속성(Persistence)
-[참고](./../Unclassified/Persistence.md)
+[참고](./Persistence.md)
 - 데이터를 생성한 프로그램이 종료되더라도 사라지지 않는 데이터의 특성을 말한다.
 - 영속성을 갖지 않는 데이터는 단지 메모리에서만 존재하기 때문에 프로그램을 종료하면 모두 잃어버리게 된다.
 - **Object Persistence(영구적인 객체)**
