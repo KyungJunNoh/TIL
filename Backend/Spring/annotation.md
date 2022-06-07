@@ -1,13 +1,16 @@
 # Annotation
+`어노테이션` 이란 자바에서 지원하는 **메타데이터의 일종**으로 @ 기호를 앞에 붙여서 사용한다.   
+`어노테이션`은 빌드(컴파일)되어 클래스 파일에서 바이트 코드로 변한다.
 
+# Spring 주요 어노테이션
 ### @Configuration
 - 어노테이션기반 "환경구성"을 돕는다. 주로 ```Cofnig``` 폴더에서 ```@Bean``` 어노테이션과 같이 사용함.
 
 ### @Bean
-- Configuration 이 관리하는 어노테이션
+- @Configuration 과 함께 사용하여 Bean을 등록할 수 있다.
 
 ### @RequiredArgsConstructor
-- 이 어노테이션은 초기화 되지 않은 ```final``` 필드나, ```@NotNull``` 이 붙은 필드에 대해 생성자를 생성자를 생성해 준다. **주로 의존성 주입(Dependency Injection)** 편의성을 위해서 사용되곤 한다.
+- 이 어노테이션은 초기화 되지 않은 ```final``` 필드나, ```@NotNull```   이 붙은 필드에 대해 생성자를 생성자를 생성해 준다. **주로 의존성 주입(Dependency Injection)** 편의성을 위해서 사용되곤 한다.
 
 ### @RequestMapping
 ```
@@ -46,7 +49,7 @@ public class GetController {
 
 <img src = "img/CRUD.png">
 
-## 롬복
+# 롬복
 ### @Getter/@Setter
 - 필드에 @Getter나 @Setter를 붙인다면, lombok이 해당 필드에 대한 기본 getter/setter를 생성해준다.
 
@@ -60,32 +63,33 @@ public class GetController {
 - 이 어노테이션은 "파라미터가 없는 생성자"를 생성한다.
 
 <img src = "img/noargsconstructor.png">
+   
+>
+> @NoArgsContructor를 사용할 때 주의점
+> 
+> 1. 필드들이 final로 생성되어 있는 경우에는 필드를 초기화 할 수 없기 때문에 생성자를 만들 수 없고 에러가 발생하게 된다.
+>
+> 이 때는 @NoArgsConstructor(force = true) 옵션을 이용해서 final 필드를 0, false, null 등으로 초기화를 강제로 시켜서 생성자를 만들 수 있다.
+>
+> 2. @NonNull 같이 필드에 제약조건이 설정되어 있는 경우, 생성자내 null-check 로직이 생성되지 않는다.
+>
+> 후에 초기화를 진행하기 전까지 null-check 로직이 발생하지 않는 점을 염두하고 코드를 개발해야 한다.
 
-```
-@NoArgsContructor를 사용할 때 주의점
-
-1. 필드들이 final로 생성되어 있는 경우에는 필드를 초기화 할 수 없기 때문에 생성자를 만들 수 없고 에러가 발생하게 된다.
-
-이 때는 @NoArgsConstructor(force = true) 옵션을 이용해서 final 필드를 0, false, null 등으로 초기화를 강제로 시켜서 생성자를 만들 수 있다.
-
-2. @NonNull 같이 필드에 제약조건이 설정되어 있는 경우, 생성자내 null-check 로직이 생성되지 않는다.
-
-후에 초기화를 진행하기 전까지 null-check 로직이 발생하지 않는 점을 염두하고 코드를 개발해야 한다.
-```
 
 ### @RequiredArgsConstructor
 초기화 되지 않은 모든 final 필드, @NonNull로 마크돼있는 모든 필드들에 대한 생성자를 자동으로 생성해준다.
 <img src ="img/RequiredArgsConstructor.png">
 
-
+# JPA
 ### @Entity
 - JPA가 관리할 객체
 
-### @Id
-- DB PK와 매핑 할 필드
+### @ID
+- JPA에서 기본키를 지정할때 사용하는 어노테이션
 
-### GeneratedValue
-- 자동으로 값을 증가시켜주는 어노테이션
+### @GenerateValue
+- JPA에서 기본키의 값을 자동으로 증가 시켜줄때 사용되는 어노테이션
+- 추가적인 옵션을 붙이고싶을때에는 ```ex) @GenerateValue(strategy = GenerationType.IDENTITY)
 
 ### @Column
 - 변수와 컬럼을 매핑하기위한 어노테이션
@@ -101,6 +105,7 @@ public class GetController {
 (Update를 하기 위해 사용했음)
 
 
+# Swagger
 ### @ApiParam("")
 - Swagger 의 어노테이션으로 swagger 페이지에서 해당 API의 설명을 표시해주는 어노테이션이다.
 
@@ -112,16 +117,3 @@ public String signup(@ApiParam("Signup User")@RequestBody UserDto userDto){
     return "success";
 }
 ```
-> 결과 
-<img src = "./img/ApiParamEx.png">
-
-### @ID
-- JPA에서 기본키를 지정할때 사용하는 어노테이션
-
-### @GenerateValue
-- JPA에서 기본키의 값을 자동으로 증가 시켜줄때 사용되는 어노테이션
-- 추가적인 옵션을 붙이고싶을때에는 ```ex) @GenerateValue(strategy = GenerationType.IDENTITY)```   
-
-> 옵션 예시
-> <img src = "./img/AutoIncre.png">
-
