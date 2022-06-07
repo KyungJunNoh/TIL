@@ -1,4 +1,6 @@
 # Spring Security
+> Spring Security 개념을 정리한 마크다운
+
 ### 인증(Authentication)과 권한(Authorization)
 <img src="img/authentication.png">
 
@@ -18,7 +20,7 @@
 
 ```
 Authentication : 입증, 인증
-Provider : 제공자
+Provider : 제공자
 ```
 위 그림의 동작 플로우
 1. 사용자가 로그인 정보를 함께 인증 요청(Http Request)
