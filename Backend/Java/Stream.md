@@ -58,7 +58,7 @@ public class prog {
 > 1   
 
 ### 배열
-```
+```java 
 String[] arr = new String[]{"넷","둘","하나"}
 
 // 배열에서 스트림 생성
