@@ -87,6 +87,7 @@
 - [아파치 소프트웨어 재단](Backend/Unclassified/ASF.md)
 - [색인(index)](Backend/Unclassified/index.md)
 - [레디스(Redis)](Backend/Unclassified/redis.md)
+- [서드파티(third party,3rd party)](Backend/Unclassified/thirdparty.md)
 
 ### [ 기술 면접 준비 ]
 - [백엔드 기술면접](Backend/TechInterView/TechInterView.md)
