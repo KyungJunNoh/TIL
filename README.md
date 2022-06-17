@@ -90,6 +90,7 @@
 - [서드파티(third party,3rd party)](Backend/Unclassified/thirdparty.md)
 - [로우레벨(low-level)](Backend/Unclassified/low-level.md)
 - [parse](Backend/Unclassified/parse.md)
+- [oEmbed](Backend/Unclassified/oEmbed.md)
 
 ### [ 기술 면접 준비 ]
 - [백엔드 기술면접](Backend/TechInterView/TechInterView.md)
