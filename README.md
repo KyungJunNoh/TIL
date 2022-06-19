@@ -66,6 +66,9 @@
 - [파라미터 (Parameter)](Backend/Node_Js/Parameter.md)
 - [Passport.js](Backend/Node_Js/passport.md)
 
+### [ NestJs ]
+- [타입스크립트 (TypeScript)](Backend/nestjs/typescript.md)
+
 ### [ DevOps ]
 - [DevOps](Backend/DevOps/DevOps.md)
 - [AWS](Backend/DevOps/aws.md)
