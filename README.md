@@ -1,7 +1,7 @@
 # TIL
   > 노경준의 지식저장소    
 
-**인터넷**
+**Internet**
 - [인터넷(Internet)](Internet/Internet.md)
 - [DNS](Internet/DNS.md)
 - [HTTP 프로토콜](Internet/HTTP.md)
