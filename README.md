@@ -76,6 +76,7 @@
 - [CIDI](DevOps/CIDI.md)
 - [NAT](DevOps/NAT.md)
 - [데몬 (Daemon)](DevOps/Daemon.md)
+- [온프레미스 (Onpremise)](DevOps/Onpremise.md)
 
 **Unclassfied**
 - [프레임 워크 (FrameWork)](Unclassified/FrameWork.md)
