@@ -106,6 +106,9 @@
 **기술 면접 준비**
 - [백엔드 기술면접](TechInterView/TechInterView.md)
 
+**단어 사전**
+- [단어 사전](Word/word_dictionary.md)
+
 **정보보안 이론**
 - [Cryptography overview](Cyber_Security/Part2_대칭키암호.md)
 - [Symmetric key password](Cyber_Security/Part2_암호학개요.md)
