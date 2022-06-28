@@ -17,6 +17,9 @@
 - [프로세스간 통신(IPC)](Os_Common/IPC.md)
 - [POSIX(Portable Operating System Interface)](Os_Common/POSIX.md)
 
+**Computer**
+- [램(Ram)](computer/ram.md)
+
 **Certification**
 - [인증 (Certification)](Certification/Certification.md)
 - [쿠키 (Cookie)](Certification/Cookie.md)
