@@ -19,6 +19,7 @@
 
 **Computer**
 - [램(Ram)](computer/ram.md)
+- [CPU](computer/cpu.md)
 
 **Certification**
 - [인증 (Certification)](Certification/Certification.md)
