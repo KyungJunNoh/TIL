@@ -20,6 +20,7 @@
 **Computer**
 - [램(Ram)](computer/ram.md)
 - [CPU](computer/cpu.md)
+- [메인보드(Mainboard)](computer/mainboard.md)
 
 **Certification**
 - [인증 (Certification)](Certification/Certification.md)
