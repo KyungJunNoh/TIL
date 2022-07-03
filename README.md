@@ -22,6 +22,9 @@
 - [CPU](computer/cpu.md)
 - [메인보드(Mainboard)](computer/mainboard.md)
 
+**Data Structure**
+- [큐(Queue)](datastructure/queue.md)
+
 **Certification**
 - [인증 (Certification)](Certification/Certification.md)
 - [쿠키 (Cookie)](Certification/Cookie.md)
