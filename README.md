@@ -52,7 +52,7 @@
 - [Java 에서의 직렬화 역직렬화](Java/Serialization.md)
 
 **Kotlin**
-- [공식문서 번역](kotlin/docs.md)
+- [코틀린 공식문서 번역](kotlin/docs.md)
 
 **Spring**
 - [Spring](Spring/Spring.md)
