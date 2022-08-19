@@ -23,6 +23,7 @@
 - [메인보드(Mainboard)](computer/mainboard.md)
 
 **Data Structure**
+- [자료구조(Data Structure)](datastructure/datastructure.md)
 - [큐(Queue)](datastructure/queue.md)
 
 **Certification**
