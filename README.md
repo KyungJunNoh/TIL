@@ -51,6 +51,7 @@
 - [Object 클래스](Java/object.md)
 - [Stream API](Java/Stream.md)
 - [Java 에서의 직렬화 역직렬화](Java/Serialization.md)
+- [컬렉션프레임워크](Java/collections_framework/collections_framework.md)
 
 **Kotlin**
 - [코틀린 공식문서 번역](kotlin/docs.md)
